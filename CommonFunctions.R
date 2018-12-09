@@ -52,9 +52,7 @@ funggcast <- function(dn, fcast) {
  }
 
 #----------------------
-# Developed by : Mani
-# Purpose :
-# Function funggcast does have NA values which is having issues in generating ggplot
+# Purpose : Function funggcast does have NA values which is having issues in generating ggplot
 # observed,fitted is NA for PROJECTED data
 # lo80, hi80, lo95, hi95 is NA for HISTORICAL data
 #----------------------
@@ -73,9 +71,7 @@ funggcast <- function(dn, fcast) {
 }
 
 #----------------------
-# Developed by : Mani
-# Purpose :
-# A Common Function to Get the WEATHER DATA USING weatherData Package by passing the required info
+# Purpose : A Common Function to Get the WEATHER DATA USING weatherData Package by passing the required info
 # Param :  
 # 	P1 -CITY CODE to pick weatherData from web
 #	P2 -Start Date 
@@ -112,9 +108,7 @@ getSummaryData <- function (city_code, stdate, enddate, city_name, latlongsl){
 }
 
 #----------------------
-# Developed by : Mani
-# Purpose :
-# A Common Function to get the plot based on the Inputdate & the plot title
+# Purpose : A Common Function to get the plot based on the Inputdate & the plot title
 # Param :  
 # 	P1 - Data Frame
 #	P2 - Plot title
@@ -136,9 +130,7 @@ getPlot <- function (fcdata, gtile, ylabel){
 }
 
 #----------------------
-# Developed by : Mani
-# Purpose :
-# A Common Function to export the Plot to the pdf file
+# Purpose : A Common Function to export the Plot to the pdf file
 # Param :  
 # 	P1 -Plot
 #	P2 -Type (Rainfall - Rain, Temperature =Temp) 
